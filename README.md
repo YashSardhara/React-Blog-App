@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+
+
+
+# Getting Started with React Blog App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +71,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Creating a Blog
+
+To create a blog, navigate to /create (https://yashsardhara.github.io/create):
+## Title:
+
+### Enter the title of your blog.
+Subtitle:
+
+### Provide a subtitle for your blog.
+HTML Content:
+
+### Enter the HTML code for your blog content.
+Author Name:
+
+### Specify the name of the author.
+Timestamp:
+
+### The timestamp is automatically generated.
+Submit:
+
+## Click the submit button to create your blog.
+
+### Validation
+
+1. All fields are mandatory. Ensure that you fill in every detail.
+2. The HTML content field must contain valid HTML code.
+3. Feel free to explore and contribute to this simple React blog app!
