@@ -3,6 +3,7 @@ import BlogForm from '../blog_components/BlogForm';
 import BlogList from '../blog_components/BlogList';
 import React, { useState } from 'react';
 import Footer from '../footer/Footer';
+import BlogMain from '../blog_components/BlogMain';
 
 const NewsTopics = ["World", "U.S.", "Technology", "Design", "Culture", "Business", "Politics", "Opinion", "Science", "Health", "Style", "Travel"];
 
@@ -48,7 +49,6 @@ const NavBar = () => {
                         </div>
                     </div>
                 </nav>
-
                 {/* set Browser Router */}
                 <Routes>
                     <Route
@@ -58,6 +58,10 @@ const NavBar = () => {
                     <Route
                         path="/"
                         element={<BlogList blogs={blogs} />}
+                    />
+                    <Route
+                        path="/main"
+                        element={<BlogMain blogs={blogs} />}
                     />
                 </Routes>
                 <Footer />

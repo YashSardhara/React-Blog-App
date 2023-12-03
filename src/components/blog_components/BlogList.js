@@ -1,15 +1,10 @@
 import BlogPagination from './BlogPagination';
 import BlogAside from './BlogAside';
-import FeaturedPost from './FeaturedPost';
-import FeaturedBlog from './FeaturedBlog';
 
 const BlogList = ({ blogs }) => {
-    console.log(blogs);
     return (
         <>
             <main className="container">
-                <FeaturedBlog />
-                <FeaturedPost />
                 <div className="row g-5">
                     <div className="col-md-8">
                         <h3 className="pb-4 mb-4 fst-italic border-bottom">

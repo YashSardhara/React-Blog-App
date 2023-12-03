@@ -1,6 +1,7 @@
 const FeaturedPost = () => {
     return (<>
-        <div className="row mb-2">
+        <div className="container">
+        <div className=" row mb-2">
             <div className="col-md-6">
                 <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div className="col p-4 d-flex flex-column position-static">
@@ -35,6 +36,7 @@ const FeaturedPost = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </>);
 }
