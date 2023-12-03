@@ -26,7 +26,7 @@ const NavBar = () => {
                                     <Link className="link-secondary" to="/create">Create Blog</Link>
                                 </div>
                                 <div className="col-4 text-center">
-                                    <Link className="blog-header-logo text-body-emphasis text-decoration-none" to="/">Large</Link>
+                                    <Link className="blog-header-logo text-body-emphasis text-decoration-none" to="/blog-app">Large</Link>
                                 </div>
                                 <div className="col-4 d-flex justify-content-end align-items-center">
                                     <a className="link-secondary" href="#" aria-label="Search">
