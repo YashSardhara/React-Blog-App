@@ -52,16 +52,16 @@ const NavBar = () => {
                 {/* set Browser Router */}
                 <Routes>
                     <Route
-                        path="/create"
-                        element={<BlogForm addBlog={addBlog} />}
+                        path="/blog-app"
+                        element={<BlogMain blogs={blogs} />}
                     />
                     <Route
                         path="/"
-                        element={<BlogList blogs={blogs} />}
+                        element={<BlogMain blogs={blogs} />}
                     />
                     <Route
-                        path="/main"
-                        element={<BlogMain blogs={blogs} />}
+                        path="/create-blog"
+                        element={<BlogForm addBlog={addBlog} />}
                     />
                 </Routes>
                 <Footer />
