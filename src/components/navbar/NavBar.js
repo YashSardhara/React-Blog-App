@@ -23,10 +23,10 @@ const NavBar = () => {
                         <header className="border-bottom lh-1 py-3">
                             <div className="row flex-nowrap justify-content-between align-items-center">
                                 <div className="col-4 pt-1">
-                                    <Link className="link-secondary" to="/create">Create Blog</Link>
+                                    <Link className="link-secondary" to="/blog-app/create">Create Blog</Link>
                                 </div>
                                 <div className="col-4 text-center">
-                                    <Link className="blog-header-logo text-body-emphasis text-decoration-none" to="/blog-app">Large</Link>
+                                    <Link className="blog-header-logo text-body-emphasis text-decoration-none" to="/blog-app/main"> Large</Link>
                                 </div>
                                 <div className="col-4 d-flex justify-content-end align-items-center">
                                     <a className="link-secondary" href="#" aria-label="Search">
@@ -52,15 +52,15 @@ const NavBar = () => {
                 {/* set Browser Router */}
                 <Routes>
                     <Route
-                        path="/create"
+                        path="/blog-app/create"
                         element={<BlogForm addBlog={addBlog} />}
                     />
                     <Route
-                        path="/"
+                        path="/blog-app"
                         element={<BlogList blogs={blogs} />}
                     />
                     <Route
-                        path="/main"
+                        path="/blog-app/main"
                         element={<BlogMain blogs={blogs} />}
                     />
                 </Routes>
